@@ -1,14 +1,5 @@
 package main;
 
-/**
- * Node in the AVL tree.
- * Known Bugs: None
- *
- * @author Feifan He
- * feifanhe@brandeis.edu
- * Apr 4, 2023
- * COSI 21A PA2
- */
 public class AVLPlayerNode {
     private Player data;
     private double value;
@@ -26,7 +17,6 @@ public class AVLPlayerNode {
      * Runtime: O(1)
      */
     public AVLPlayerNode(Player data, double value) {
-        //TODO
         this.data = data;
         this.value = value;
         this.parent = null;

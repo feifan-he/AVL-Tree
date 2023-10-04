@@ -1,11 +1,5 @@
 package main;
 
-/**
- * This is provided code, do not modify
- *
- * @author COSI 21a-Team
- *
- */
 public class Player {
 	private String name;
 	private int id;
